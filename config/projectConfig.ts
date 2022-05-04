@@ -7,7 +7,7 @@ const projectConfig = {
 
   maxMintAmountPerTxn: 10,
 
-  mintCost: process.env.NODE_ENV === 'production' ? 100 : 0.01,
+  mintCost: process.env.NODE_ENV === 'production' ? 0.01 : 0.01,
 
   networkName:
     process.env.NODE_ENV === 'production'
@@ -38,13 +38,13 @@ const projectConfig = {
 
   contractAddress:
     process.env.NODE_ENV === 'production'
-      ? 'your_mainnet_contract_address'
-      : 'your_testnet_contract_address',
+      ? '0xE684d46aD242Bc83b55CCf6d786d72c2E17DEA3f'
+      : '0xE684d46aD242Bc83b55CCf6d786d72c2E17DEA3f',
 
   scanUrl:
     process.env.NODE_ENV === 'production'
-      ? 'https://polygonscan.com/address/your_polygon_contract_address'
-      : 'https://mumbai.polygonscan.com/address/your_mumbai_contract_address',
+      ? 'https://polygonscan.com/address/0xE684d46aD242Bc83b55CCf6d786d72c2E17DEA3f'
+      : 'https://mumbai.polygonscan.com/address/0xE684d46aD242Bc83b55CCf6d786d72c2E17DEA3f',
   // 'https://etherscan.io/address/your_ethereum_contract_address'
   // 'https://rinkeby.etherscan.io/address/your_rinkeby_contract_address'
 };
