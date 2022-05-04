@@ -45,8 +45,8 @@ const projectConfig = {
     process.env.NODE_ENV === 'production'
       ? 'https://polygonscan.com/address/0xE684d46aD242Bc83b55CCf6d786d72c2E17DEA3f'
       : 'https://mumbai.polygonscan.com/address/0xE684d46aD242Bc83b55CCf6d786d72c2E17DEA3f',
-  // 'https://etherscan.io/address/your_ethereum_contract_address'
-  // 'https://rinkeby.etherscan.io/address/your_rinkeby_contract_address'
+  // 'https://etherscan.io/address/0xE684d46aD242Bc83b55CCf6d786d72c2E17DEA3f'
+  // 'https://rinkeby.etherscan.io/address/0xE684d46aD242Bc83b55CCf6d786d72c2E17DEA3f'
 };
 
 export default projectConfig;
